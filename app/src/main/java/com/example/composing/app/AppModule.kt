@@ -24,5 +24,5 @@ class AppModule {
             .build()
 
     @Provides
-    fun provideApiKey() = Config.NASA_API_KEY
+    fun provideApiKey(): String = Config.NASA_API_KEY
 }
